@@ -26,9 +26,9 @@ export default function RootLayout({
             borderBottom: "1px solid var(--border-color)",
           }}
         >
-          <div className="max-w-5xl mx-auto flex justify-between items-center p-8">
+          <div className="max-w-5xl mx-auto flex flex-wrap justify-center md:justify-between items-center p-8">
             {/* Logo */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 w-full md:w-auto justify-center mb-4 md:mb-0">
               <Image
                 src="/android-chrome-192x192.png"
                 alt="Logo locale"
@@ -39,7 +39,7 @@ export default function RootLayout({
             </div>
 
             {/* Nav */}
-            <nav className="hidden sm:flex gap-6 text-2xl font-bold">
+            <nav className="flex gap-6 text-2xl font-bold w-full md:w-auto justify-center">
               <a href="/" className="hover:underline">
                 Home
               </a>
