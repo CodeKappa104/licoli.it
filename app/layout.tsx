@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Image from "next/image";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "LI.CO.LI",
@@ -129,6 +130,18 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-M2TK0Y0MRX"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M2TK0Y0MRX');
+          `}
+        </Script>
       </body>
     </html>
   );
