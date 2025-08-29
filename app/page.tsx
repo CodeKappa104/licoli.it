@@ -7,26 +7,23 @@ const Home = () => {
   const imageFilenames = fs.readdirSync(galleryDir);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 gap-4">
-        {/* {imageFilenames.map((filename) => (
-          <div key={filename} className="relative h-screen w-full">
+    <div className="container mx-auto py-8 ">
+      <div className="grid grid-cols-1">
+        {imageFilenames.map((filename) => (
+          <div
+            key={filename}
+            className="relative w-full"
+            style={{ minHeight: "800px" }}
+          >
             <Image
               src={`/home/${filename}`}
               alt={filename}
-              layout="fill"
-              objectFit="cover"
+              fill={true}
+              objectFit="fill"
+              className="rounded-lg"
             />
           </div>
-        ))} */}
-        <div className="relative h-screen w-full">
-          <Image
-            src={`/home/1ithink.jpg`}
-            alt={`1ithink`}
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
+        ))}
       </div>
     </div>
   );
