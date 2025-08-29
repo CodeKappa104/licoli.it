@@ -148,7 +148,7 @@ export default function MenuPage() {
             className="text-8xl mb-6 tracking-wide text-center"
             style={{ fontFamily: "var(--sections-font)" }}
           >
-            Menù
+            Menu'
           </h1>
         </header>
 
