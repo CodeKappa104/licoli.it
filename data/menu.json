@@ -1,0 +1,99 @@
+{
+  "bakery": [
+    { "name": "Cornetto Ischitano", "price": 1.5 },
+    { "name": "Cornetto Ischitano mini", "price": 1.2 },
+    { "name": "Cornetto Ischitano con Cioccolato", "price": 2 },
+    { "name": "Cornetto Ischitano con Cioccolato bianco", "price": 2 },
+    { "name": "Cornetto Ischitano con Cioccolato fondente", "price": 2.5 },
+    { "name": "Cornetto Ischitano con Pistacchio", "price": 2.5 },
+    {
+      "name": "Cornetto Ischitano con Crema al latte di bufala",
+      "price": 2
+    },
+    { "name": "Cornetto Ischitano con Crema pasticcera", "price": 2 },
+    { "name": "Cornetto Ischitano con Confettura all'albicocca", "price": 2 },
+    { "name": "Cornetto Ischitano con Confettura alla fragola", "price": 2 },
+    {
+      "name": "Cornetto Ischitano con Confettura ai frutti di bosco",
+      "price": 2
+    },
+    { "name": "Sfogliatella", "price": 2 },
+    { "name": "Sfogliatella mini", "price": 1.2 },
+    { "name": "Brioches", "price": 2.5 },
+    { "name": "Pangoccioli", "price": 2.5 },
+    { "name": "Buondì", "price": 2.5 },
+    { "name": "Buondì mini", "price": 1.2 },
+    { "name": "Maxi Toast", "price": 3 },
+    { "name": "Parigina", "price": 2.5 }
+  ],
+  "caffetteria": [
+    { "name": "Caffè", "price": 1.2 },
+    { "name": "Caffè macchiato", "price": 1.5 },
+    { "name": "Cappuccino", "price": 2 },
+    { "name": "Latte macchiato", "price": 2 },
+    { "name": "Caffè americano", "price": 2 },
+    { "name": "Caffè decaffeinato", "price": 1.5 },
+    { "name": "Ginseng/Orzo", "price": 1.5 },
+    { "name": "Cappuccino Special", "price": 2.5 },
+    { "name": "Crema caffè", "price": 3 },
+    { "name": "Tè e Tisane", "price": 2 },
+    { "name": "Matcha/Chai Latte", "price": 3.5 },
+    { "name": "Latte Special mix (senza lattosio/soia)", "price": 0.5 }
+  ],
+  "healthy": [
+    { "name": "Pancakes (3pz)", "price": 7 },
+    { "name": "Pancakes (2pz)", "price": 5 },
+    { "name": "Yogurt bowl", "price": 5 }
+  ],
+  "special": [
+    { "name": "Cinnamon Rolls", "price": 3 },
+    { "name": "Banana Bread", "price": 3 },
+    { "name": "Cubo croissant", "price": 3 },
+    { "name": "Pain au chocolat", "price": 3 },
+    { "name": "Cookies", "price": 2.5 },
+    { "name": "Brownies", "price": 2.5 },
+    { "name": "Torte", "price": 2 }
+  ],
+  "bibite": [
+    { "name": "Acqua", "price": 1 },
+    { "name": "Succo di frutta", "price": 2.5 },
+    { "name": "Succhi Special", "price": 3 },
+    {
+      "name": "Lattina 33cl (Coca-cola/zero, Fanta, Estathé pesca/limone, Sprite)",
+      "price": 2.5
+    },
+    { "name": "Cedrata", "price": 3 },
+    { "name": "Crodino", "price": 3 },
+    { "name": "Bitter rosso/bianco", "price": 3 }
+  ],
+  "smoothies": [
+    { "name": "Mix Frutti Esotici", "price": 3 },
+    { "name": "Frutti di Bosco", "price": 3 }
+  ],
+  "drinks": [
+    { "name": "Spritz Aperol", "price": 5 },
+    { "name": "Spritz Campari", "price": 5 },
+    { "name": "Spritz Select", "price": 5 },
+    { "name": "Spritz Hugo", "price": 5 },
+    { "name": "Spritz Cilentano", "price": 5 },
+    { "name": "Cocktail Base", "price": 5 },
+    { "name": "Cocktail Special", "price": 8 },
+    { "name": "Cocktail Analcolico", "price": 4 },
+    { "name": "Campari Soda", "price": 3.5 }
+  ],
+  "birre": [
+    { "name": "Nastro Azzurro", "price": 2.5 },
+    { "name": "Beck’s", "price": 2.5 },
+    { "name": "Heineken", "price": 2.5 },
+    { "name": "Corona", "price": 3.5 },
+    { "name": "Ceres", "price": 3.5 },
+    { "name": "Tennent’s", "price": 3.5 },
+    { "name": "Artigianale Base", "price": 5 },
+    { "name": "Artigianale Special", "price": 6 }
+  ],
+  "vini": [
+    { "name": "Vino Bianco", "price": 3.5 },
+    { "name": "Vino Rosso", "price": 3.5 },
+    { "name": "Prosecco", "price": 3.5 }
+  ]
+}

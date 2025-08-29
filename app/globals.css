@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --main-bg: #2530d8; /* blu principale */
+  --text-color: #ffffff;
 }
 
 @theme inline {
@@ -20,7 +22,20 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  /* background: var(--background);
+  color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-bg);
+  color: var(--text-color);
+}
+
+@font-face {
+  font-family: "LicoliFont";
+  src: url("/fonts/DOVES.TTF") format("truetype");
+  font-display: swap;
+}
+
+/* Variabile per il font delle sezioni */
+:root {
+  --sections-font: "LicoliFont", ui-sans-serif, system-ui;
 }
