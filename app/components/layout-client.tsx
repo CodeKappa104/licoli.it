@@ -15,7 +15,7 @@ function Sidebar({
 }) {
   return (
     <div
-      className={`fixed top-0 right-0 h-full w-64 bg-[var(--main-bg)] text-white p-8 transform transition-transform duration-300 ease-in-out border-l-gray-400 border-l-2 z-10 ${
+      className={`fixed top-0 right-0 h-full w-64 bg-[var(--main-bg)] text-white p-8 transform transition-transform duration-300 ease-in-out border-l-gray-200 border-l-1 shadow-md z-10 ${
         isOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
